@@ -5,7 +5,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 #all-contents {
-  max-width: 800px;
+  max-width: 900px;
     margin: auto;
 }
 
@@ -14,12 +14,15 @@ nav {
     background: rgb(146, 174, 131);
    margin: 0 auto;
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    outline-style: outset;
+    outline-width: 2ch;
+    outline-color:rgb(182, 228, 182)
 }
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(35, 33, 35);
+    color: rgb(42, 47, 43);
     flex: 1;
     margin: 0;
 }
@@ -32,7 +35,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #3d3b3b;
+    color: #feeeee;
 }
 
 /* main container area beneath menu */
@@ -41,11 +44,38 @@ main {
     display: flex;
 }
 .sidebar {
-    margin-right: 20px;
+    margin-right: 5px;
+    padding: 60px;
+
+ /* portfolio styles */
+ .content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
     padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #f3c0c0;
+}
 }
 .sidebar-img {
     width: 250px;
+    box-align: center;
 }
 .content {
     flex: 1;
@@ -54,7 +84,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 10px rgb(186, 216, 181) ridge;
+    border: 15px rgb(198, 235, 199) ridge;
     padding: 8px;
 }
 h2, h3 {
@@ -63,6 +93,8 @@ h2, h3 {
 
 p{
     border-style: dotted;
-    border-color:rgb(150, 174, 137)
+    border-width: thick;
+    border-color:rgb(131, 155, 118)
+    
 }
 
