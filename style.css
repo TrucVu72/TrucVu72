@@ -13,6 +13,7 @@ body {
 nav {
     background: rgb(146, 174, 131);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 20px;
     outline-style: outset;
