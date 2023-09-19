@@ -47,10 +47,11 @@ main {
 .sidebar {
     margin-right: 5px;
     padding: 60px;
+}
 
-          /* portfolio styles */
-          .content h1 {
-            color: rgb(232, 104, 104);
+         /* portfolio styles */
+         .content h1 {
+            color: black;
         }
 
         #portfolio {
@@ -71,5 +72,5 @@ main {
 
         #portfolio a {
             text-decoration: none;
-            color: #f9dddd;
+            color: #454545;
         }
